@@ -1,0 +1,85 @@
+body.dark-mode {
+    /*   image de font https://picsum.photos/1920/1080?blur*/
+  background: url('https://images.pexels.com/photos/847402/pexels-photo-847402.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  /*scroll-behavior:smooth;*/
+}
+
+body.dark-mode .glass{
+  color: rgb(156, 163, 169);
+}
+body.light-mode {
+  background: url("https://wallpapercave.com/wp/wp8561052.png");
+  background-size: cover;
+  color: #212529;
+}
+
+body.light-mode .glass {
+  color: #212529;
+  border: 1px solid black;
+}
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.profile-pic {
+  border-radius: 50%;
+  width: 160px;
+  border: 4px solid white;
+  margin-bottom: 20px;
+}
+
+/* Animation cards */
+.project-card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+.project-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.video-btn{
+    margin-left: 30%;
+}
+
+.karo {
+  height: 100%; 
+}
+.karo img {
+  object-fit: cover; 
+  object-position: center;
+}
+
+.text_apropos{
+  text-align: justify;
+}
+.text_credo{
+  text-align: justify;
+  text-decoration: dotted;
+  color: lightslategray;
+  border:2px solid lightsalmon;
+  background-color: black;
+  
+}
+.glass-nav {
+  z-index: 1050; /* supérieur à celui des autres éléments */
+}
+.hero {
+  min-height: 100vh;
+  padding-top: 100px; /* espace pour la navbar fixe */
+ 
+}
+.details-projet{
+  text-align: justify;
+}
+
+.contact-mod a {
+  word-break: break-all;
+}

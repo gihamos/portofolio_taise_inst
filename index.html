@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Taïse De Thèse NGANGA YABIE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top glass-nav">
+  <button id="themeToggle" class="btn btn-outline-light ms-3 light-mode" title="Changer le thème">
+  <i class="bi bi-moon-stars-fill"></i>
+</button>
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Portfolio – Taïse</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" title="afficher le menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">Présentation</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<header id="about" class="hero d-flex flex-column align-items-center justify-content-center text-center">
+  <img src="assets/photo.jpg" alt="Photo de profil" class="profile-pic">
+  <h1 id="typing"></h1>
+  <h6>AI, Big Data & Full Stack Developer in training at <a href="https://ecole-ipssi.com/" title="Please click to learn more about the school.">IPSSI</a> | Seeking a work-study opportunity to gain hands-on experience and contribute to impactful projects.</h6>
+  <section id="a_propos" class="container my-5">
+    <div class="d-flex align-items-center justify-content-center mb-4">
+    <img src="assets/developpeur.png" alt="About me" class="me-2" style="width: 40px; height: 40px;">
+    <h2 class="mb-0">About Me</h2>
+     </div>
+     <p class="text_apropos">Passionate developer fascinated by emerging technologies, I am currently pursuing a Master's in AI, Big Data & Development at IPSSI Paris.<br>
+    My academic journey, from a Bachelor's in Computer Science in Angers and then Le Mans, has given me a solid foundation in software development, systems, and distributed architectures.</p>
+    <p class="text_apropos">Curious, rigorous, and solution-oriented, I stand out for my ability to learn quickly and adapt to various technical environments. My personal and academic projects demonstrate my commitment and creativity, especially in fullstack development, artificial intelligence, and DevOps.</p>
+    <p class="text_apropos" ><strong style="color: darkgreen;">I am looking for a work-study or professional contract in software development (1 week school / 3 weeks company) </strong>to put my skills at the service of innovative projects and actively contribute to the success of a technical team.</p>
+    <h5 class="text_credo"><strong>My motto: </strong>learn fast, code clean, deliver value.</h5>
+    </section>
+   </header>
+   <!--- Professional Experience section-->
+   <section id="experience" class="container my-5"></section>
+    <h2 class="text-center mb-4">🧑‍💼 Professional Experience</h2>
+    <div class="row g-4">
+
+    <!-- Experience 1 -->
+    <div class="col-md-6">
+      <div class="card glass h-100 p-4">
+      <div class="d-flex align-items-center mb-3">
+        <i class="bi bi-laptop fs-3 text-warning me-3"></i>
+        <div>
+        <h5 class="mb-0">Web Developer – University of Angers</h5>
+        <small class="text-muted">2024 · Academic internship</small>
+        </div>
+      </div>
+      <p>Designed a school tracking application with Symfony and PostgreSQL.
+      Implemented an authentication system, PDF report generation, and user role management.</p>
+      <span class="badge bg-secondary">Symfony</span>
+      <span class="badge bg-secondary">PostgreSQL</span>
+      <span class="badge bg-secondary">Git</span>
+      </div>
+    </div>
+
+    <!-- Experience 2 -->
+    <div class="col-md-6">
+      <div class="card glass h-100 p-4">
+      <div class="d-flex align-items-center mb-3">
+        <i class="bi bi-person-workspace fs-3 text-info me-3"></i>
+        <div>
+        <h5 class="mb-0">Technical Support Specialist – University of Angers</h5>
+        <small class="text-muted">2022 · Student job</small>
+        </div>
+      </div>
+      <ul>
+        <li>
+          Delivered technical support and guidance to students
+        </li>
+        <li>
+          Facilitated the use of digital tools
+        </li>
+        <li>
+         Maintained IT systems and managed helpdesk tickets
+        </li>
+      </ul>
+      <span class="badge bg-secondary">Technical support</span>
+      <span class="badge bg-secondary">Linux</span>
+      <span class="badge bg-secondary">Communication</span>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+   <!-- Projects section  -->
+  <section id="projects" class="container my-5">
+    <h2 class="text-center">🚀 Academic and Personal Projects</h2>
+
+    <div id="projectsCarousel" class="carousel slide" >
+     <div class="carousel-indicators">
+    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+      <div class="row g-3">
+        <div class="col-md-4 col-sm-6 col-12  ">
+        <div class="project-card glass p-3 text-center karo">
+          <img src="assets/sudoHelp2.jpg" class="img-fluid rounded mb-3" alt="Sudo-help">
+          <h5>Sudo-help</h5>
+          <p class="details-projet">Sudoku game coded in Java with JavaFX for the graphical interface, with logs, continuous saving with SQLite, and an intelligent help system.</p>
+          <a href="https://github.com/Enzo-mor/Sudo-help" class="btn btn-outline-secondary github-btn" target="_blank" rel="noopener">GitHub</a>
+          <button  class="video-btn btn btn-outline-secondary" data-video="kLerl5zVj6I" title="Click to view the demo">View demo</button>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 ">
+        <div class="project-card glass p-3 text-center karo">
+          <img src="assets/gtosint.jpg" class="img-fluid rounded mb-3" alt="GTOsint">
+          <h5>GTOsint</h5>
+          <p class="details-projet">Collaborative MEAN stack application with security and CI/CD, coded for tracking players across multiple gaming platforms. Frontend in Angular and backend in JavaScript, with MongoDB data storage and authentication system.</p>
+          <a href="https://github.com/GTOsint/GTOsint" class="btn btn-outline-secondary github-btn" target="_blank" rel="noopener">GitHub</a>
+          <button  class="video-btn btn btn-outline-secondary" data-video="O1bPBxE6jRI" title="Click to view the demo">View demo</button>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+        <div class="project-card glass p-3 text-center karo">
+          <img src="assets/sklearn-make-classification_FEATURED-IMAGE.png" class="img-fluid rounded mb-3" alt="Machine Learning">
+          <h5>Machine Learning</h5>
+          <p>Emotion classification with Python / scikit-learn.</p>
+          <a href="https://github.com/gihamos/machinelearning" class="btn btn-outline-secondary github-btn" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+      <div class="row g-3">
+        <div class="col-md-4 col-sm-6 col-12">
+        <div class="project-card glass p-3 text-center karo">
+          <img src="assets/autre.png" class="img-fluid rounded mb-3" alt="Other project">
+          <h5>Other project</h5>
+          <p>Quick description.</p>
+          <a href="#" class="btn btn-outline-secondary github-btn">GitHub</a>
+        </div>
+        </div>
+      
+      </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev" title="Go to previous slide">
+      <span class="bi bi-arrow-left-circle fs-1 text-white " style="background-color: goldenrod;"></span>
+    </button>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next" title="Go to next slide">
+      <span class="bi bi-arrow-right-circle fs-1 text-white " style="background-color: goldenrod;"></span>
+  </button>
+    </button>
+  </div>
+</section>
+
+
+
+<!-- Section Compétences -->
+<section id="skills" class="container my-5">
+  <h2 class="text-center mb-4">💻 SKILLS</h2>
+  <div class="row g-4">
+
+    <!-- Langages de programmation -->
+    <div class="col-md-4">
+      <div class="card glass h-100 text-center p-3">
+        <h5><i class="bi bi-terminal"></i>programming language</h5>
+        <ul class="list-unstyled mt-3">
+          <li>Java, Python, C/C++, PHP, Ruby</li>
+          <li>JavaScript / TypeScript, Bash</li>
+          <li>R, Prolog, Haskell, C#</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Backend & DevOps -->
+    <div class="col-md-4">
+      <div class="card glass h-100 text-center p-3">
+        <h5><i class="bi bi-server"></i> Backend & DevOps</h5>
+        <ul class="list-unstyled mt-3">
+          <li>Node.js, Express.js, Symfony, FastAPI</li>
+          <li>API REST, Docker, Git, CI/CD</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Frontend -->
+    <div class="col-md-4">
+      <div class="card glass h-100 text-center p-3">
+        <h5><i class="bi bi-window"></i> Frontend</h5>
+        <ul class="list-unstyled mt-3">
+          <li>Angular, React, Django</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bases de données -->
+    <div class="col-md-4">
+      <div class="card glass h-100 text-center p-3">
+        <h5><i class="bi bi-database"></i> Databases</h5>
+        <ul class="list-unstyled mt-3">
+          <li>PostgreSQL, MySQL, MongoDB</li>
+          <li>SQLite</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Réseaux & Systèmes -->
+    <div class="col-md-4">
+      <div class="card glass h-100 text-center p-3">
+        <h5><i class="bi bi-hdd-network"></i> Networks & Systems</h5>
+        <ul class="list-unstyled mt-3">
+          <li>Linux, VirtualBox</li>
+          <li>Network communication concepts</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Méthodologies & Langues -->
+    <div class="col-md-4">
+      <div class="card glass h-100 text-center p-3">
+        <h5><i class="bi bi-tools"></i>Methods & Language</h5>
+        <ul class="list-unstyled mt-3">
+          <li>Agile / Scrum, UML, Design Patterns</li>
+          <li>Applied algorithmic</li>
+          <li>French (kindergarten), Anglais (B2)</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Section Contact -->
+<section>
+  <!-- Section Contact -->
+<div id="contact" class="container text-center my-5">
+  <h2>📬 Contact</h2>
+  <div class="row justify-content-center gy-3 contact">
+    <div class="col-12 col-md-6">
+      <div class="contact-mod ev d-flex align-items-center justify-content-center gap-2">
+        <i class="bi bi-envelope-fill fs-4 text-primary"></i>
+        <span>Email : <a href="mailto:gihamos@gmail.com">gihamos@gmail.com</a></span>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <div class="contact-mod ev d-flex align-items-center justify-content-center gap-2">
+        <i class="bi bi-github fs-4 text-dark"></i>
+        <span>GitHub : <a href="https://github.com/gihamos" target="_blank" rel="noopener">github.com/gihamos</a></span>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="d-flex align-items-center justify-content-center">
+        <i class="bi bi-linkedin fs-4 text-primary me-2"></i>
+        <div class="badge-base LI-profile-badge ev" data-locale="fr_FR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="gihamos" data-version="v1"></div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4">
+    <a href="assets/cv.pdf" class="btn btn-primary" target="_blank">
+      <i class="bi bi-download me-2"></i>Download my CV
+    </a>
+  </div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer>
+  © 2025 – Portfolio 
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+</body>
+</html>
